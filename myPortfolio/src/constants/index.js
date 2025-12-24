@@ -1,5 +1,5 @@
 import {
-  mobile,
+  // mobile,
   backend,
   creator,
   web,
@@ -45,12 +45,16 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
+  // {
+  //   title: "React Native Developer",
+  //   icon: mobile,
+  // },
   {
     title: "Backend Developer",
+    icon: backend,
+  },
+  {
+    title: "Spring Boot & Microservices",
     icon: backend,
   },
   {
@@ -58,6 +62,21 @@ const services = [
     icon: creator,
   },
 ];
+
+// const services = [
+//   {
+//     title: "Frontend Development",
+//     icon: web,
+//   },
+//   {
+//     title: "MERN Stack Development",
+//     icon: web,
+//   },
+//   {
+//     title: "Spring Boot & Microservices",
+//     icon: backend,
+//   },
+// ];
 
 const technologies = [
   {
