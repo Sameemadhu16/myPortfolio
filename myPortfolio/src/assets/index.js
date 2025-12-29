@@ -1,13 +1,16 @@
 import logo from "./logo.jpeg";
 // import logo from "./logo.svg";
 import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import content from "./content.png";
+// import mobile from "./mobile.png";
+import spring from "./spring.png";
+// import creator from "./creator.png";
+import web from "./web1.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import springboot from "./tech/springboot.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -30,16 +33,21 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import lankapura from "./lankapura.jpg";
+import pawcentral from "./pawcentral.jpg";
+import travelLK from "./travelLK.jpg";
 
 export {
   logo,
   backend,
-  creator,
-  mobile,
+  content,
+  // mobile,
+  spring,
   web,
   github,
   menu,
   close,
+  springboot,
   css,
   docker,
   figma,
@@ -60,4 +68,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  lankapura,
+  pawcentral,
+  travelLK
 };

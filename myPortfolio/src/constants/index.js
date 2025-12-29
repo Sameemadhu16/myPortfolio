@@ -1,10 +1,9 @@
 import {
-  // mobile,
   backend,
-  creator,
+  spring,
+  content,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -16,13 +15,14 @@ import {
   figma,
   docker,
   meta,
+  springboot,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  lankapura,
+  pawcentral,
+  travelLK,
 } from "../assets";
 
 export const navLinks = [
@@ -31,8 +31,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -45,40 +45,28 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  // {
-  //   title: "React Native Developer",
-  //   icon: mobile,
-  // },
+  
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
     title: "Spring Boot & Microservices",
-    icon: backend,
+    icon: spring,
   },
   {
     title: "Content Creator",
-    icon: creator,
+    icon: content,
   },
 ];
 
-// const services = [
-//   {
-//     title: "Frontend Development",
-//     icon: web,
-//   },
-//   {
-//     title: "MERN Stack Development",
-//     icon: web,
-//   },
-//   {
-//     title: "Spring Boot & Microservices",
-//     icon: backend,
-//   },
-// ];
+
 
 const technologies = [
+  {
+    name: "Spring Boot",
+    icon: springboot,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -91,10 +79,7 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  
   {
     name: "React JS",
     icon: reactjs,
@@ -216,69 +201,153 @@ const testimonials = [
 ];
 
 const projects = [
+//   {
+//     name: "Car Rent",
+//     description:
+//       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+//     tags: [
+//       {
+//         name: "react",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "mongodb",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "tailwind",
+//         color: "pink-text-gradient",
+//       },
+//     ],
+//     image: carrent,
+//     source_code_link: "https://github.com/",
+//   },
+//   {
+//     name: "Job IT",
+//     description:
+//       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+//     tags: [
+//       {
+//         name: "react",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "restapi",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "scss",
+//         color: "pink-text-gradient",
+//       },
+//     ],
+//     image: jobit,
+//     source_code_link: "https://github.com/",
+//   },
+//   {
+//     name: "Trip Guide",
+//     description:
+//       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+//     tags: [
+//       {
+//         name: "nextjs",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "supabase",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "css",
+//         color: "pink-text-gradient",
+//       },
+//     ],
+//     image: tripguide,
+//     source_code_link: "https://github.com/",
+//   },
   {
-    name: "Car Rent",
+    name: "Travel.lk",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Smart Tourism Management Platform - Developed a smart tourism platform for Sri Lanka enabling tourists to plan, book, and personalize trips while connecting with verified guides, hotels and vehicle rentals through a centralized system. Focused on implementing multi-role authentication, personalized trip planner, real-time booking, and service discovery.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "spring-boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: travelLK,
+    source_code_link: "https://github.com/Sameemadhu16/TravelLK",
+  },
+  {
+    name: "Job-Listings",
+    description:
+      "Job Finding and Posting System - A modern platform that connects job seekers and employers seamlessly. Job seekers can directly chat with job posters and send CV through the platform. Whether you're looking to hire top talent or find your dream job.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
       },
       {
         name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: null,
+    source_code_link: "https://github.com/Sachith-AB/Job-Listings",
   },
   {
-    name: "Job IT",
+    name: "PawCentral",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "All-in-One Pet Care Platform - A comprehensive web platform to streamline pet care, including medical services, adoption and fostering, pet-related commerce, event hosting, and pet service management. Brings together pet owners, veterinarians, pet shelters, and service providers in a unified digital space.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "php",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pawcentral,
+    source_code_link: "https://github.com/Sameemadhu16/PawCentral",
+  },
+  {
+    name: "Lankapura Weda Madura",
+    description:
+      "Ayurvedic Medical Platform - A comprehensive web platform for Ayurvedic medical services with user-facing onsite blog & appointment system allowing patients to read articles, book appointments, browse products, and contact the clinic. Staff portal under development for managing patient records, treatment progress, and medical data.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "express",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: lankapura,
+    source_code_link: "https://github.com/Sameemadhu16/LankaPura-Weda-Madura",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects ,testimonials};
